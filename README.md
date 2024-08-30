@@ -15,7 +15,7 @@
 ###
 
 <div align="left">
-  <img height="200" src="https://telegra.ph/file/56d1760224589ee370186.jpg"  />
+  <img height="200" src="https://photos.app.goo.gl/cQJuY42SZRRrDU568"  />
 </div>
 
 ###
