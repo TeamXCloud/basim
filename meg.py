@@ -245,7 +245,7 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"🎯 𝗔𝘁𝘁𝗮𝗰𝗸 𝗙𝗶𝗻𝗶𝘀𝗵𝗲𝗱 🎯"
         else:
-            response = "Attack in Process Please wait for end"  # Updated command syntax
+            response = "Provide IP PORT TIME"  # Updated command syntax
     else:
         response = "🚫𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗗𝗲𝗻𝗶𝗲𝗱🚫"
 
